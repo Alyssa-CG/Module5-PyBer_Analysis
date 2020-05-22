@@ -8,7 +8,7 @@ This analysis of data from PyBer, a rideshare company, was conducted to evaluate
 
 ### Technical Analysis
 
-The aforementioned factors were all analysed using Python 3.7.8 (including the matplotlib, pandas, NumPy and SciPy libraries) in a Jupyter Notebook 6.0.3 environment. These tools were used to generate summary statistics, dataframes and a variety of charts to more easily summarise and visualise the trends in the data and ([code available here](https://github.com/Alyssa-CG/Module5-PyBer_Analysis/blob/master/PyBer_Challenge.ipynb)).
+The aforementioned factors were all analysed using Python 3.7.8 (including the matplotlib, pandas, NumPy and SciPy libraries) in a Jupyter Notebook 6.0.3 environment. These tools were used to generate summary statistics, dataframes and a variety of charts to more easily summarise and visualise the trends in the data ([code available here](https://github.com/Alyssa-CG/Module5-PyBer_Analysis/blob/master/PyBer_Challenge.ipynb)).
 
 ### Results and Summary
 
@@ -26,7 +26,7 @@ As detailed in the summary dataframe below, urban cities are also associated wit
 
 ### Challenges and Difficulties Encountered
 
-The large amount of data was, at times, difficult to keep track of, setting an index as a datetime data type was trickier than setting the index as another data type and using methods not expressly covered by the course (pivot tables in python, fiveThirtyEight style, resample()) were all challenging, but satisfyingly rewarding to overcome.
+The large amount of data was, at times, difficult to keep track of, setting an index as a datetime data type was trickier than setting the index as another data type and using methods not expressly covered by the course (FiveThirtyEight style, resample(), Python pivot tables) were all challenging, but satisfyingly rewarding to overcome.
 
 ### Technical Analyses Used
 
@@ -38,13 +38,13 @@ For setting the index as datetime data type, it was necessary to consult online 
 
 ![info() function](https://github.com/Alyssa-CG/Module5-PyBer_Analysis/blob/master/Analysis/set%20index%20as%20datetime.png)
 
-In order to address topics with which I was not familiar, it was important to learn from the links provided with the challenge, such as https://matplotlib.org/3.1.1/gallery/style_sheets/fivethirtyeight.html and https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.resample.html, while also searching for more sources as necessary, such as https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.pivot_table.html.
+In order to address topics with which I was not familiar, it was important to learn from the links provided with the challenge, such as for [the FiveThirtyEight graph style](https://matplotlib.org/3.1.1/gallery/style_sheets/fivethirtyeight.html) and [the resample() method](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.resample.html), while also searching for more sources as necessary, such as with [pivot tables using Python](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.pivot_table.html).
 
 ## Recommendations and Next Steps
 
-Based on the data from different city types, I would tell V. Isualize that it looks like it may be worth hiring new rideshare drivers in suburban and especially rural cities, but it would be best to get information both on the cost per driver that PyBer incurs and the demographic of current riders by city type before making these decisions.
-
 ### Recommendations for Future Analysis
+
+Based on the data from different city types, I would tell V. Isualize that it looks like it may be worth hiring new rideshare drivers in suburban and especially rural cities, but it would be best to get information both on the cost per driver that PyBer incurs and the demographic of current riders by city type before making these decisions.
 
 ### Analyse cost of rideshare drivers
 
